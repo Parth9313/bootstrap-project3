@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    font-family: "Roboto", serif;
+    
+}
+/* #Page1{
+    height: 680px;
+    background-image: url(./image/shoe-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#banner-heading{
+    margin-left: 190px;
+    margin-top: 40px;
+} */
+
+#Page1{
+    min-height: 555px;
+    background-image: url(./image/shoe-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#banner-heading{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 190px;
+    width: 100%;
+    height: 100%;  
+}
+#mbtn{ 
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: orange;
+    color: aliceblue;
+    
+}
+#sect2{
+    height: 600px;
+    background-color: rgb(255, 242, 225);
+}
+#heading{
+    font-size: 80px;
+    text-align: center;
+}
+#shot1{
+    margin-top: 125px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+#shot1 p{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 251, 255);
+    border-radius: 50%;
+}
+#image1{
+    margin-top: -15px;
+}
+/* #concen{
+    text-align: center;
+    align-items: center;
+} */
+#cencard{
+    padding-left: 30px;
+    margin-top: 45px;
+    margin-left: 190px;
+    height: 450px;
+    width: 950px;
+    background-color: orange;
+    border-radius: 15px;
+}
+#cencard2{
+    padding-left: 30px;
+    margin-top: 45px;
+    margin-left: 190px;
+    height: 450px;
+    width: 950px;
+    background-color: rgb(255, 228, 179);
+    border-radius: 15px;
+
+}
+#cencard3{
+    padding-left: 30px;
+    margin-top: 45px;
+    margin-left: 190px;
+    height: 450px;
+    width: 950px;
+    background-color: rgb(141, 240, 255);
+    border-radius: 15px;
+ 
+}
